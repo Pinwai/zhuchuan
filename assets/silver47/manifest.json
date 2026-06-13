@@ -1,0 +1,607 @@
+[
+  {
+    "id": "clear_quartz",
+    "name": "白水晶",
+    "asset": "assets/silver47/clear_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727a078407.png.webp",
+    "description": "白水晶-澄澈純淨「永恆之冰」...",
+    "colorTags": [
+      "透明",
+      "白"
+    ],
+    "hexColors": [
+      "#F8FFFF",
+      "#BFE3F1",
+      "#FFFFFF"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "amethyst",
+    "name": "紫水晶",
+    "asset": "assets/silver47/amethyst.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727a687847.png.webp",
+    "description": "紫水晶-靜心智慧「不醉之石」...",
+    "colorTags": [
+      "紫",
+      "透明"
+    ],
+    "hexColors": [
+      "#8E62C6",
+      "#4C2A74",
+      "#D8B7FF"
+    ],
+    "texture": "vein"
+  },
+  {
+    "id": "citrine",
+    "name": "黃水晶",
+    "asset": "assets/silver47/citrine.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727acc71a4.png.webp",
+    "description": "黃水晶-富裕自信「柑橘之石」...",
+    "colorTags": [
+      "黃",
+      "金"
+    ],
+    "hexColors": [
+      "#F6C76A",
+      "#A96D21",
+      "#FFE9A8"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "rose_quartz",
+    "name": "粉水晶",
+    "asset": "assets/silver47/rose_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727bda19d2.png.webp",
+    "description": "粉水晶-溫柔之愛 「愛之石」...",
+    "colorTags": [
+      "粉"
+    ],
+    "hexColors": [
+      "#F9CCD8",
+      "#EFA9BD",
+      "#FFF0F4"
+    ],
+    "texture": "mist"
+  },
+  {
+    "id": "smoky_quartz",
+    "name": "煙晶",
+    "asset": "assets/silver47/smoky_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727c283d28.png.webp",
+    "description": "煙晶-穩重守護「地之石」...",
+    "colorTags": [
+      "茶",
+      "棕"
+    ],
+    "hexColors": [
+      "#5A3A22",
+      "#1F1712",
+      "#A57B54"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "south_red_agate",
+    "name": "南紅冰飄花",
+    "asset": "assets/silver47/south_red_agate.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727c738cd4.png.webp",
+    "description": "南紅冰飄花-冰火交融「火雪之石」...",
+    "colorTags": [
+      "紅",
+      "白"
+    ],
+    "hexColors": [
+      "#D84A2C",
+      "#FFF2EA",
+      "#FF9A72"
+    ],
+    "texture": "flower"
+  },
+  {
+    "id": "black_gold_super",
+    "name": "黑金超",
+    "asset": "assets/silver47/black_gold_super.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727cf7ca12.png.webp",
+    "description": "黑金超-轉化聚能「顯化之石」...",
+    "colorTags": [
+      "黑",
+      "金"
+    ],
+    "hexColors": [
+      "#17130D",
+      "#B88A31",
+      "#F6DB8B"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "gold_rutilated",
+    "name": "黃髮晶",
+    "asset": "assets/silver47/gold_rutilated.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727d51511c.png.webp",
+    "description": "黃髮晶-招財聚能「財富之石」...",
+    "colorTags": [
+      "金",
+      "髮絲"
+    ],
+    "hexColors": [
+      "#F8CF65",
+      "#A66A16",
+      "#FFF2B7"
+    ],
+    "texture": "needle"
+  },
+  {
+    "id": "black_strawberry_quartz",
+    "name": "黑草莓晶",
+    "asset": "assets/silver47/black_strawberry_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727db8293e.png.webp",
+    "description": "黑草莓晶-沉靜釋放「靜護之石」...",
+    "colorTags": [
+      "黑",
+      "粉"
+    ],
+    "hexColors": [
+      "#4E1C2B",
+      "#1B1116",
+      "#D7A0AC"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "amazonite",
+    "name": "天河石",
+    "asset": "assets/silver47/amazonite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727ee01157.png.webp",
+    "description": "天河石-溫柔表達「希望之石」...",
+    "colorTags": [
+      "藍綠"
+    ],
+    "hexColors": [
+      "#75D8D2",
+      "#2C9FA2",
+      "#E4FFFF"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "white_rutilated",
+    "name": "白髮晶",
+    "asset": "assets/silver47/white_rutilated.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727e8dc6c4.png.webp",
+    "description": "白髮晶-清澈貫穿「神啟之石」...",
+    "colorTags": [
+      "白",
+      "髮絲"
+    ],
+    "hexColors": [
+      "#F5F6F0",
+      "#C9CED1",
+      "#FFFFFF"
+    ],
+    "texture": "needle"
+  },
+  {
+    "id": "sunstone",
+    "name": "日光石",
+    "asset": "assets/silver47/sunstone.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727e161ccc.png.webp",
+    "description": "日光石-陽光自信「太陽之石」...",
+    "colorTags": [
+      "橘",
+      "金"
+    ],
+    "hexColors": [
+      "#EE9A45",
+      "#A64B22",
+      "#FFE0A6"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "black_rutilated",
+    "name": "黑髮晶",
+    "asset": "assets/silver47/black_rutilated.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727f80a783.png.webp",
+    "description": "黑髮晶-破邪聚力「命運之石」...",
+    "colorTags": [
+      "黑",
+      "髮絲"
+    ],
+    "hexColors": [
+      "#F0F3F3",
+      "#111111",
+      "#B6C1C1"
+    ],
+    "texture": "needle"
+  },
+  {
+    "id": "labradorite",
+    "name": "拉長石",
+    "asset": "assets/silver47/labradorite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684727fe38b65.png.webp",
+    "description": "拉長石-覺醒之光「覺醒之石」...",
+    "colorTags": [
+      "灰",
+      "藍光"
+    ],
+    "hexColors": [
+      "#3F4B4D",
+      "#1D75A3",
+      "#B2A174"
+    ],
+    "texture": "flash"
+  },
+  {
+    "id": "moonstone",
+    "name": "白月光",
+    "asset": "assets/silver47/moonstone.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684728041cb6e.png.webp",
+    "description": "白月光-柔光守護「女神之石」...",
+    "colorTags": [
+      "白",
+      "柔光"
+    ],
+    "hexColors": [
+      "#EAF1F6",
+      "#8FB8E8",
+      "#FFFFFF"
+    ],
+    "texture": "glow"
+  },
+  {
+    "id": "aquamarine",
+    "name": "海藍寶",
+    "asset": "assets/silver47/aquamarine.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68472811987ea.png.webp",
+    "description": "海藍寶-清澈溝通「航海之石」...",
+    "colorTags": [
+      "藍",
+      "清透"
+    ],
+    "hexColors": [
+      "#9ED9E8",
+      "#4C9CC3",
+      "#E9FFFF"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "strawberry_quartz",
+    "name": "紅草莓晶",
+    "asset": "assets/silver47/strawberry_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684728160e5da.png.webp",
+    "description": "紅草莓晶-甜暖連結「療癒之石」...",
+    "colorTags": [
+      "粉",
+      "紅"
+    ],
+    "hexColors": [
+      "#F6B3B5",
+      "#C96370",
+      "#FFE6E8"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "prehnite",
+    "name": "葡萄石",
+    "asset": "assets/silver47/prehnite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847281d09575.png.webp",
+    "description": "葡萄石-安定療癒「先知之石」...",
+    "colorTags": [
+      "綠",
+      "透光"
+    ],
+    "hexColors": [
+      "#D4ED9E",
+      "#94B75B",
+      "#F5FFD1"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "apatite",
+    "name": "磷灰石",
+    "asset": "assets/silver47/apatite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847282504d27.png.webp",
+    "description": "磷灰石-靈感啟動「創見之石」...",
+    "colorTags": [
+      "藍綠"
+    ],
+    "hexColors": [
+      "#57BFD4",
+      "#186A8B",
+      "#DFFBFF"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "lapis",
+    "name": "青金岩",
+    "asset": "assets/silver47/lapis.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847282d2ace9.png.webp",
+    "description": "青金岩-智慧守護「真理之石」...",
+    "colorTags": [
+      "藍"
+    ],
+    "hexColors": [
+      "#173B96",
+      "#07194D",
+      "#D5A845"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "garnet",
+    "name": "石榴石",
+    "asset": "assets/silver47/garnet.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684728322516a.png.webp",
+    "description": "石榴石- 熱情重生「燃燒之石」...",
+    "colorTags": [
+      "紅",
+      "深色"
+    ],
+    "hexColors": [
+      "#5F0D19",
+      "#26060C",
+      "#B23B4B"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "charoite",
+    "name": "紫龍晶",
+    "asset": "assets/silver47/charoite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847284065d2a.png.webp",
+    "description": "紫龍晶-靈魂轉化「轉化之石」...",
+    "colorTags": [
+      "紫",
+      "白紋"
+    ],
+    "hexColors": [
+      "#8D61AE",
+      "#3E2857",
+      "#D6C1EA"
+    ],
+    "texture": "wave"
+  },
+  {
+    "id": "green_strawberry_quartz",
+    "name": "綠草莓晶",
+    "asset": "assets/silver47/green_strawberry_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68472846214c0.png.webp",
+    "description": "綠草莓晶-療癒連結「森語之石」...",
+    "colorTags": [
+      "綠",
+      "內含物"
+    ],
+    "hexColors": [
+      "#7FC991",
+      "#2E6A46",
+      "#DDF6E1"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "silver_obsidian",
+    "name": "銀曜石",
+    "asset": "assets/silver47/silver_obsidian.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847284ae2883.png.webp",
+    "description": "銀曜石-靜守之力「靈視之石」...",
+    "colorTags": [
+      "黑",
+      "銀光"
+    ],
+    "hexColors": [
+      "#111111",
+      "#565B64",
+      "#DADCE2"
+    ],
+    "texture": "flash"
+  },
+  {
+    "id": "blue_agate",
+    "name": "藍紋瑪瑙",
+    "asset": "assets/silver47/blue_agate.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_684728530f3e4.png.webp",
+    "description": "藍紋瑪瑙-靜語舒心「雲語之石」...",
+    "colorTags": [
+      "藍",
+      "紋理"
+    ],
+    "hexColors": [
+      "#B7C8EA",
+      "#5571AA",
+      "#F8FBFF"
+    ],
+    "texture": "wave"
+  },
+  {
+    "id": "hawk_eye",
+    "name": "鷹眼石",
+    "asset": "assets/silver47/hawk_eye.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68472859e7465.png.webp",
+    "description": "鷹眼石-洞察行動「洞察之石」...",
+    "colorTags": [
+      "藍灰",
+      "絲光"
+    ],
+    "hexColors": [
+      "#273849",
+      "#0F1823",
+      "#7A96A8"
+    ],
+    "texture": "flash"
+  },
+  {
+    "id": "cherry_blossom_agate",
+    "name": "櫻花雨",
+    "asset": "assets/silver47/cherry_blossom_agate.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847285ee9372.png.webp",
+    "description": "櫻花雨-愛的療癒「玫瑰之石」...",
+    "colorTags": [
+      "粉",
+      "花紋"
+    ],
+    "hexColors": [
+      "#F5B6BE",
+      "#CD7D86",
+      "#FFF1F3"
+    ],
+    "texture": "flower"
+  },
+  {
+    "id": "golden_healer",
+    "name": "金運石",
+    "asset": "assets/silver47/golden_healer.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847286551fb3.png.webp",
+    "description": "金運石-靈性守護「超越之石」...",
+    "colorTags": [
+      "黑",
+      "金"
+    ],
+    "hexColors": [
+      "#1C1B18",
+      "#C69B43",
+      "#F3D076"
+    ],
+    "texture": "speckle"
+  },
+  {
+    "id": "blue_moonstone",
+    "name": "藍月光",
+    "asset": "assets/silver47/blue_moonstone.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6847286c3abbd.png.webp",
+    "description": "藍月光-靈光守護「情侶之石」...",
+    "colorTags": [
+      "藍",
+      "白光"
+    ],
+    "hexColors": [
+      "#C9E5FF",
+      "#73A4E8",
+      "#FFFFFF"
+    ],
+    "texture": "glow"
+  },
+  {
+    "id": "garden_quartz",
+    "name": "膠花水晶",
+    "asset": "assets/silver47/garden_quartz.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68472873f0613.png.webp",
+    "description": "膠花水晶-花韻蘊晶「沉靜花靈」...",
+    "colorTags": [
+      "透明",
+      "花紋"
+    ],
+    "hexColors": [
+      "#F7D0BC",
+      "#BA7F5C",
+      "#FFF4EB"
+    ],
+    "texture": "flower"
+  },
+  {
+    "id": "iolite",
+    "name": "堇青石",
+    "asset": "assets/silver47/iolite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_687663362fbaa.png.webp",
+    "description": "堇青石-心靈羅盤「導航之石」...",
+    "colorTags": [
+      "藍紫"
+    ],
+    "hexColors": [
+      "#5366A9",
+      "#252C65",
+      "#BBC8FF"
+    ],
+    "texture": "clear"
+  },
+  {
+    "id": "black_gold_backbone",
+    "name": "黑金骨干",
+    "asset": "assets/silver47/black_gold_backbone.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_6876634e74c12.png.webp",
+    "description": "黑金骨干-踏實前行「守護之石」...",
+    "colorTags": [
+      "黑",
+      "金"
+    ],
+    "hexColors": [
+      "#17120D",
+      "#A77B2D",
+      "#EED18A"
+    ],
+    "texture": "band"
+  },
+  {
+    "id": "kyanite",
+    "name": "藍晶石",
+    "asset": "assets/silver47/kyanite.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_687665c47c884.png.webp",
+    "description": "藍晶石-清晰表達「溝通之石」...",
+    "colorTags": [
+      "藍"
+    ],
+    "hexColors": [
+      "#4A88C8",
+      "#174576",
+      "#BDE2FF"
+    ],
+    "texture": "facet"
+  },
+  {
+    "id": "black_tourmaline",
+    "name": "黑碧璽",
+    "asset": "assets/silver47/black_tourmaline.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68766ebe63d34.png.webp",
+    "description": "黑碧璽-能量護盾「阻擋之石」...",
+    "colorTags": [
+      "黑"
+    ],
+    "hexColors": [
+      "#080808",
+      "#2B2B2B",
+      "#FFFFFF"
+    ],
+    "texture": "facet"
+  },
+  {
+    "id": "blue_needle",
+    "name": "藍針",
+    "asset": "assets/silver47/blue_needle.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68767377afba1.png.webp",
+    "description": "藍針-靈性連結「創作之石」...",
+    "colorTags": [
+      "藍",
+      "內含物"
+    ],
+    "hexColors": [
+      "#A8D5EA",
+      "#3C7CA5",
+      "#F7FFFF"
+    ],
+    "texture": "needle"
+  },
+  {
+    "id": "green_phantom",
+    "name": "綠幽靈",
+    "asset": "assets/silver47/green_phantom.webp",
+    "sourceUrl": "https://image.bvshop.tw/4212/home/4212_68767842f1057.png.webp",
+    "description": "綠幽靈-豐盛引導「成長之石」...",
+    "colorTags": [
+      "綠",
+      "內景"
+    ],
+    "hexColors": [
+      "#CDE7DD",
+      "#2D6F53",
+      "#F7FFFF"
+    ],
+    "texture": "moss"
+  }
+]
