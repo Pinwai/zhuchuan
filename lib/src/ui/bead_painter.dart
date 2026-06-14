@@ -41,39 +41,66 @@ class BeadSwatch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (item.category == CatalogCategory.bead &&
-        item.imageAsset.startsWith('assets/')) {
+    if (item.imageAsset.startsWith('assets/')) {
       return LayoutBuilder(
         builder: (context, constraints) {
-          final bead = CustomPaint(
-            painter: _PhotoBeadFramePainter(showShadow: showShadow),
-            foregroundPainter: _PhotoBeadSelectionPainter(selected: selected),
-            child: Padding(
-              padding: const EdgeInsets.all(4),
-              child: ClipOval(
-                child: Image.asset(
-                  item.imageAsset,
-                  fit: BoxFit.cover,
-                  filterQuality: FilterQuality.high,
-                  errorBuilder: (context, error, stackTrace) {
-                    return CustomPaint(
-                      painter: BeadVisualPainter(
-                        item: item.copyWith(
-                          imageAsset: 'procedural://${item.id}',
-                        ),
-                        sizeMm: sizeMm,
-                        showShadow: false,
+          final visual = item.category == CatalogCategory.bead
+              ? CustomPaint(
+                  painter: _PhotoBeadFramePainter(showShadow: showShadow),
+                  foregroundPainter:
+                      _PhotoBeadSelectionPainter(selected: selected),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4),
+                    child: ClipOval(
+                      child: Image.asset(
+                        item.imageAsset,
+                        fit: BoxFit.cover,
+                        filterQuality: FilterQuality.high,
+                        errorBuilder: (context, error, stackTrace) {
+                          return CustomPaint(
+                            painter: BeadVisualPainter(
+                              item: item.copyWith(
+                                imageAsset: 'procedural://${item.id}',
+                              ),
+                              sizeMm: sizeMm,
+                              showShadow: false,
+                            ),
+                            child: const SizedBox.expand(),
+                          );
+                        },
                       ),
-                      child: const SizedBox.expand(),
-                    );
-                  },
-                ),
-              ),
-            ),
-          );
+                    ),
+                  ),
+                )
+              : Padding(
+                  padding: const EdgeInsets.all(5),
+                  child: Center(
+                    child: Transform.scale(
+                      scale: 1.18,
+                      child: Image.asset(
+                        item.imageAsset,
+                        fit: BoxFit.contain,
+                        filterQuality: FilterQuality.high,
+                        errorBuilder: (context, error, stackTrace) {
+                          return CustomPaint(
+                            painter: BeadVisualPainter(
+                              item: item.copyWith(
+                                imageAsset: 'procedural://${item.id}',
+                              ),
+                              sizeMm: sizeMm,
+                              selected: selected,
+                              showShadow: showShadow,
+                            ),
+                            child: const SizedBox.expand(),
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                );
 
           if (!constraints.hasBoundedWidth || !constraints.hasBoundedHeight) {
-            return bead;
+            return visual;
           }
           final side = math.min(constraints.maxWidth, constraints.maxHeight);
           if (side <= 0) {
@@ -82,7 +109,7 @@ class BeadSwatch extends StatelessWidget {
           return Center(
             child: SizedBox.square(
               dimension: side,
-              child: bead,
+              child: visual,
             ),
           );
         },
@@ -150,7 +177,12 @@ class BeadVisualPainter extends CustomPainter {
         }
         break;
       case CatalogCategory.spacer:
-        _drawSpacer(canvas, rect);
+        final image = sourceImage;
+        if (image != null) {
+          _drawPhotoSpacer(canvas, rect, image);
+        } else {
+          _drawSpacer(canvas, rect);
+        }
         break;
       case CatalogCategory.pendant:
         _drawPendant(canvas, rect);
@@ -248,6 +280,43 @@ class BeadVisualPainter extends CustomPainter {
         ..style = PaintingStyle.stroke
         ..strokeWidth = rect.width * 0.03
         ..color = Colors.white.withValues(alpha: 0.18),
+    );
+  }
+
+  void _drawPhotoSpacer(Canvas canvas, Rect rect, ui.Image image) {
+    final source = Rect.fromLTWH(
+      0,
+      0,
+      image.width.toDouble(),
+      image.height.toDouble(),
+    );
+    final destination = _containDestinationRect(source.size, rect);
+    canvas.drawImageRect(
+      image,
+      source,
+      destination,
+      Paint()
+        ..isAntiAlias = true
+        ..filterQuality = FilterQuality.high,
+    );
+  }
+
+  Rect _containDestinationRect(Size sourceSize, Rect target) {
+    final sourceRatio = sourceSize.width / sourceSize.height;
+    final targetRatio = target.width / target.height;
+    if (sourceRatio > targetRatio) {
+      final height = target.width / sourceRatio;
+      return Rect.fromCenter(
+        center: target.center,
+        width: target.width,
+        height: height,
+      );
+    }
+    final width = target.height * sourceRatio;
+    return Rect.fromCenter(
+      center: target.center,
+      width: width,
+      height: target.height,
     );
   }
 

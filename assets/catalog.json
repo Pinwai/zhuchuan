@@ -831,7 +831,7 @@
         8,
         10
       ],
-      "imageAsset": "procedural://silver_baguette_spacer",
+      "imageAsset": "assets/generated_spacers/silver_baguette_spacer.png",
       "isPlaceholder": false,
       "hexColors": [
         "#D9DDE2",
@@ -855,7 +855,7 @@
         8,
         10
       ],
-      "imageAsset": "procedural://gold_rhinestone_spacer",
+      "imageAsset": "assets/generated_spacers/gold_rhinestone_spacer.png",
       "isPlaceholder": false,
       "hexColors": [
         "#F0C95B",
@@ -879,7 +879,7 @@
         8,
         10
       ],
-      "imageAsset": "procedural://silver_flower_spacer",
+      "imageAsset": "assets/generated_spacers/silver_flower_spacer.png",
       "isPlaceholder": false,
       "hexColors": [
         "#DCE1E8",
@@ -903,7 +903,7 @@
         8,
         10
       ],
-      "imageAsset": "procedural://gold_flower_spacer",
+      "imageAsset": "assets/generated_spacers/gold_flower_spacer.png",
       "isPlaceholder": false,
       "hexColors": [
         "#F1C85B",
@@ -927,7 +927,7 @@
         8,
         10
       ],
-      "imageAsset": "procedural://silver_snowflake_spacer",
+      "imageAsset": "assets/generated_spacers/silver_snowflake_spacer.png",
       "isPlaceholder": false,
       "hexColors": [
         "#E7EBF0",

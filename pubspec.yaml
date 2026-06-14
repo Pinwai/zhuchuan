@@ -24,3 +24,4 @@ flutter:
   assets:
     - assets/catalog.json
     - assets/silver47_beads/
+    - assets/generated_spacers/
