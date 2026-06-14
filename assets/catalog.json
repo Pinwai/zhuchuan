@@ -817,6 +817,126 @@
       "texture": "pearl"
     },
     {
+      "id": "silver_baguette_spacer",
+      "name": "銀鋯長隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://silver_baguette_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#D9DDE2",
+        "#7B828C",
+        "#FFFFFF"
+      ],
+      "texture": "rhinestone_bar"
+    },
+    {
+      "id": "gold_rhinestone_spacer",
+      "name": "金鋯隔片",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "金",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://gold_rhinestone_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F0C95B",
+        "#9E6A18",
+        "#FFF4B2"
+      ],
+      "texture": "rhinestone_bar"
+    },
+    {
+      "id": "silver_flower_spacer",
+      "name": "銀鋯花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://silver_flower_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#DCE1E8",
+        "#808894",
+        "#FFFFFF"
+      ],
+      "texture": "rhinestone_flower"
+    },
+    {
+      "id": "gold_flower_spacer",
+      "name": "金鋯花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "金",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://gold_flower_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F1C85B",
+        "#A97318",
+        "#FFF7B8"
+      ],
+      "texture": "rhinestone_flower"
+    },
+    {
+      "id": "silver_snowflake_spacer",
+      "name": "銀雪花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://silver_snowflake_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#E7EBF0",
+        "#8B929A",
+        "#FFFFFF"
+      ],
+      "texture": "snowflake_spacer"
+    },
+    {
       "id": "south_red_agate",
       "name": "南紅冰飄花",
       "category": "bead",

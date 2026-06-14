@@ -22,12 +22,22 @@ void main() {
         .where((item) => item.category == CatalogCategory.pendant)
         .length;
 
-    expect(catalog.items, hasLength(52));
+    expect(catalog.items, hasLength(57));
     expect(beadCount, 49);
-    expect(spacerCount, 3);
+    expect(spacerCount, 8);
     expect(pendantCount, 0);
     expect(ids, hasLength(catalog.items.length));
     expect(catalogKeys, hasLength(catalog.items.length));
+    expect(
+      ids,
+      containsAll([
+        'silver_baguette_spacer',
+        'gold_rhinestone_spacer',
+        'silver_flower_spacer',
+        'gold_flower_spacer',
+        'silver_snowflake_spacer',
+      ]),
+    );
     expect(
       catalog.presets.expand((preset) => preset.itemIds),
       isNot(contains('moon_charm')),

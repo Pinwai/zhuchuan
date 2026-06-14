@@ -158,14 +158,25 @@ class BeadVisualPainter extends CustomPainter {
     }
 
     if (selected) {
-      canvas.drawCircle(
-        rect.center,
-        rect.width / 2 + 3,
-        Paint()
-          ..style = PaintingStyle.stroke
-          ..strokeWidth = 2.4
-          ..color = const Color(0xFF52A8FF),
-      );
+      final selectionPaint = Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 2.4
+        ..color = const Color(0xFF52A8FF);
+      if (item.category == CatalogCategory.spacer) {
+        canvas.drawRRect(
+          RRect.fromRectAndRadius(
+            rect.inflate(3),
+            Radius.circular(rect.height * 0.44),
+          ),
+          selectionPaint,
+        );
+      } else {
+        canvas.drawCircle(
+          rect.center,
+          rect.width / 2 + 3,
+          selectionPaint,
+        );
+      }
     }
   }
 
@@ -254,6 +265,21 @@ class BeadVisualPainter extends CustomPainter {
   }
 
   void _drawSpacer(Canvas canvas, Rect rect) {
+    switch (item.texture) {
+      case 'rhinestone_bar':
+        _drawRhinestoneBarSpacer(canvas, rect);
+        return;
+      case 'rhinestone_flower':
+        _drawFlowerSpacer(canvas, rect);
+        return;
+      case 'snowflake_spacer':
+        _drawSnowflakeSpacer(canvas, rect);
+        return;
+    }
+    _drawPillSpacer(canvas, rect);
+  }
+
+  void _drawPillSpacer(Canvas canvas, Rect rect) {
     final colors = paletteFor(item);
     final body = RRect.fromRectAndRadius(
       Rect.fromCenter(
@@ -298,6 +324,179 @@ class BeadVisualPainter extends CustomPainter {
             Colors.black.withValues(alpha: 0.18),
           ],
         ).createShader(channel.outerRect),
+    );
+  }
+
+  void _drawRhinestoneBarSpacer(Canvas canvas, Rect rect) {
+    final colors = paletteFor(item);
+    final bodyRect = Rect.fromCenter(
+      center: rect.center,
+      width: rect.width * 0.92,
+      height: rect.height * 0.72,
+    );
+    final body = RRect.fromRectAndRadius(
+      bodyRect,
+      Radius.circular(bodyRect.height * 0.32),
+    );
+    canvas.drawRRect(
+      body,
+      Paint()
+        ..shader = LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [colors[1], colors.first, colors.last, colors[1]],
+          stops: const [0, 0.34, 0.72, 1],
+        ).createShader(bodyRect),
+    );
+    canvas.drawRRect(
+      body,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = math.max(0.8, bodyRect.height * 0.08)
+        ..color = Colors.white.withValues(alpha: 0.72),
+    );
+
+    final crystalCount = math.max(3, (bodyRect.width / 7).round());
+    for (var i = 0; i < crystalCount; i += 1) {
+      final t = crystalCount == 1 ? 0.5 : i / (crystalCount - 1);
+      final x = bodyRect.left + bodyRect.width * (0.12 + t * 0.76);
+      final y =
+          bodyRect.center.dy + (i.isEven ? -1 : 1) * bodyRect.height * 0.08;
+      final gem = Rect.fromCenter(
+        center: Offset(x, y),
+        width: bodyRect.height * 0.34,
+        height: bodyRect.height * 0.56,
+      );
+      final path = Path()
+        ..moveTo(gem.center.dx, gem.top)
+        ..lineTo(gem.right, gem.center.dy)
+        ..lineTo(gem.center.dx, gem.bottom)
+        ..lineTo(gem.left, gem.center.dy)
+        ..close();
+      canvas.drawPath(
+        path,
+        Paint()
+          ..shader = RadialGradient(
+            colors: [
+              Colors.white,
+              colors.last.withValues(alpha: 0.92),
+              colors.first.withValues(alpha: 0.74),
+            ],
+          ).createShader(gem),
+      );
+      canvas.drawPath(
+        path,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 0.7
+          ..color = Colors.white.withValues(alpha: 0.75),
+      );
+    }
+
+    final channel = Rect.fromCenter(
+      center: bodyRect.center,
+      width: bodyRect.width * 0.11,
+      height: bodyRect.height * 0.82,
+    );
+    canvas.drawRRect(
+      RRect.fromRectAndRadius(channel, Radius.circular(channel.width / 2)),
+      Paint()
+        ..shader = LinearGradient(
+          colors: [
+            Colors.black.withValues(alpha: 0.22),
+            Colors.white.withValues(alpha: 0.42),
+            Colors.black.withValues(alpha: 0.16),
+          ],
+        ).createShader(channel),
+    );
+  }
+
+  void _drawFlowerSpacer(Canvas canvas, Rect rect) {
+    final colors = paletteFor(item);
+    final side = math.min(rect.width, rect.height) * 0.86;
+    final center = rect.center;
+    final petalPaint = Paint()
+      ..shader = RadialGradient(
+        center: const Alignment(-0.35, -0.45),
+        radius: 1.1,
+        colors: [colors.last, colors.first, colors[1]],
+      ).createShader(Rect.fromCircle(center: center, radius: side / 2));
+    for (var i = 0; i < 10; i += 1) {
+      final angle = i * math.pi * 2 / 10;
+      final petalCenter =
+          center + Offset(math.cos(angle), math.sin(angle)) * side * 0.28;
+      canvas.save();
+      canvas.translate(petalCenter.dx, petalCenter.dy);
+      canvas.rotate(angle);
+      final petal = Rect.fromCenter(
+        center: Offset.zero,
+        width: side * 0.2,
+        height: side * 0.36,
+      );
+      canvas.drawOval(petal, petalPaint);
+      canvas.restore();
+    }
+    final outer = Rect.fromCircle(center: center, radius: side * 0.38);
+    canvas.drawOval(
+      outer,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = math.max(1, side * 0.075)
+        ..color = colors.last.withValues(alpha: 0.92),
+    );
+    final hole = Rect.fromCircle(center: center, radius: side * 0.13);
+    canvas.drawOval(
+      hole,
+      Paint()..color = const Color(0xFF17181B).withValues(alpha: 0.84),
+    );
+    canvas.drawOval(
+      hole.deflate(side * 0.045),
+      Paint()..color = Colors.white.withValues(alpha: 0.2),
+    );
+  }
+
+  void _drawSnowflakeSpacer(Canvas canvas, Rect rect) {
+    final colors = paletteFor(item);
+    final side = math.min(rect.width, rect.height) * 0.92;
+    final center = rect.center;
+    final ringPaint = Paint()
+      ..shader = RadialGradient(
+        center: const Alignment(-0.35, -0.45),
+        radius: 1.1,
+        colors: [colors.last, colors.first, colors[1]],
+      ).createShader(Rect.fromCircle(center: center, radius: side / 2));
+    canvas.drawCircle(center, side * 0.36, ringPaint);
+    canvas.drawCircle(
+      center,
+      side * 0.18,
+      Paint()..color = const Color(0xFF17181B).withValues(alpha: 0.9),
+    );
+    for (var i = 0; i < 8; i += 1) {
+      final angle = i * math.pi * 2 / 8;
+      final direction = Offset(math.cos(angle), math.sin(angle));
+      final inner = center + direction * side * 0.2;
+      final outer = center + direction * side * 0.48;
+      canvas.drawLine(
+        inner,
+        outer,
+        Paint()
+          ..strokeWidth = math.max(1, side * 0.055)
+          ..strokeCap = StrokeCap.round
+          ..color = colors.last.withValues(alpha: 0.96),
+      );
+      canvas.drawCircle(
+        outer,
+        side * 0.07,
+        Paint()..color = Colors.white.withValues(alpha: 0.92),
+      );
+    }
+    canvas.drawCircle(
+      center,
+      side * 0.43,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = math.max(0.8, side * 0.035)
+        ..color = Colors.white.withValues(alpha: 0.58),
     );
   }
 

@@ -31,8 +31,8 @@ Size braceletCanvasVisualSizeFor(
   }
 
   if (category == CatalogCategory.spacer) {
-    final tangent = (targetExtent * 0.92).clamp(7.0, 30.0);
-    final radial = (targetExtent * 2.05).clamp(14.0, 58.0);
+    final tangent = (targetExtent * 0.72).clamp(5.5, 24.0);
+    final radial = (targetExtent * 1.45).clamp(11.0, 40.0);
     return Size(radial.toDouble(), tangent.toDouble());
   }
 

@@ -31,4 +31,21 @@ void main() {
     expect(ten.width, greaterThan(eight.width + 4));
     expect(twelve.width, greaterThan(ten.width + 4));
   });
+
+  test('bracelet preview keeps spacers compact on the ring tangent', () {
+    const targetPitch = 16.0;
+    final bead = braceletCanvasVisualSizeFor(
+      6,
+      CatalogCategory.bead,
+      targetExtent: targetPitch,
+    );
+    final spacer = braceletCanvasVisualSizeFor(
+      6,
+      CatalogCategory.spacer,
+      targetExtent: targetPitch * 0.66,
+    );
+
+    expect(spacer.height, lessThan(bead.width * 0.5));
+    expect(spacer.width, lessThan(bead.width));
+  });
 }
