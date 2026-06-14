@@ -45,7 +45,8 @@ void main() {
       targetExtent: targetPitch * 0.66,
     );
 
-    expect(spacer.height, lessThan(bead.width * 0.5));
-    expect(spacer.width, lessThan(bead.width));
+    expect(spacer.height, greaterThan(bead.width * 0.5));
+    expect(spacer.height, lessThan(bead.width));
+    expect(spacer.width, greaterThan(bead.width));
   });
 }
