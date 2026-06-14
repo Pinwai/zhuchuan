@@ -1,0 +1,1421 @@
+{
+  "version": "2026.06.mvp.silver47.1",
+  "items": [
+    {
+      "id": "clear_quartz",
+      "name": "白水晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "透明",
+        "白"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/clear_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F8FFFF",
+        "#BFE3F1",
+        "#FFFFFF"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "rose_quartz",
+      "name": "粉水晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "粉"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/rose_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F9CCD8",
+        "#EFA9BD",
+        "#FFF0F4"
+      ],
+      "texture": "mist"
+    },
+    {
+      "id": "amethyst",
+      "name": "紫水晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "紫",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/amethyst.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#8E62C6",
+        "#4C2A74",
+        "#D8B7FF"
+      ],
+      "texture": "vein"
+    },
+    {
+      "id": "citrine",
+      "name": "黃水晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "黃",
+        "金"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/citrine.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F6C76A",
+        "#A96D21",
+        "#FFE9A8"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "smoky_quartz",
+      "name": "煙晶",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "茶",
+        "棕"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/smoky_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#5A3A22",
+        "#1F1712",
+        "#A57B54"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "strawberry_quartz",
+      "name": "紅草莓晶",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "粉",
+        "紅"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/strawberry_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F6B3B5",
+        "#C96370",
+        "#FFE6E8"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "green_phantom",
+      "name": "綠幽靈",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "綠",
+        "內景"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/green_phantom.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#CDE7DD",
+        "#2D6F53",
+        "#F7FFFF"
+      ],
+      "texture": "moss"
+    },
+    {
+      "id": "aquamarine",
+      "name": "海藍寶",
+      "category": "bead",
+      "material": "海藍寶",
+      "colorTags": [
+        "藍",
+        "清透"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/aquamarine.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#9ED9E8",
+        "#4C9CC3",
+        "#E9FFFF"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "moonstone",
+      "name": "白月光",
+      "category": "bead",
+      "material": "月光石",
+      "colorTags": [
+        "白",
+        "柔光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/moonstone.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#EAF1F6",
+        "#8FB8E8",
+        "#FFFFFF"
+      ],
+      "texture": "glow"
+    },
+    {
+      "id": "labradorite",
+      "name": "拉長石",
+      "category": "bead",
+      "material": "拉長石",
+      "colorTags": [
+        "灰",
+        "藍光"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/labradorite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#3F4B4D",
+        "#1D75A3",
+        "#B2A174"
+      ],
+      "texture": "flash"
+    },
+    {
+      "id": "obsidian",
+      "name": "黑曜石",
+      "category": "bead",
+      "material": "火山玻璃",
+      "colorTags": [
+        "黑",
+        "鏡面"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://obsidian",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#050505",
+        "#1A1A1A",
+        "#FFFFFF"
+      ],
+      "texture": "solid"
+    },
+    {
+      "id": "lapis",
+      "name": "青金岩",
+      "category": "bead",
+      "material": "青金岩",
+      "colorTags": [
+        "藍"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/lapis.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#173B96",
+        "#07194D",
+        "#D5A845"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "gold_rutilated",
+      "name": "黃髮晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "金",
+        "髮絲"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/gold_rutilated.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F8CF65",
+        "#A66A16",
+        "#FFF2B7"
+      ],
+      "texture": "needle"
+    },
+    {
+      "id": "green_rutilated",
+      "name": "綠髮晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "綠",
+        "髮絲"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://green_rutilated",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#7BA87B",
+        "#315A35",
+        "#D9F4D8"
+      ],
+      "texture": "needle"
+    },
+    {
+      "id": "black_rutilated",
+      "name": "黑髮晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "黑",
+        "髮絲"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/black_rutilated.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F0F3F3",
+        "#111111",
+        "#B6C1C1"
+      ],
+      "texture": "needle"
+    },
+    {
+      "id": "white_phantom",
+      "name": "白幽靈",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "白",
+        "內景"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://white_phantom",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#EEF0EA",
+        "#FFFFFF",
+        "#C9CED1"
+      ],
+      "texture": "moss"
+    },
+    {
+      "id": "black_tourmaline",
+      "name": "黑碧璽",
+      "category": "bead",
+      "material": "碧璽",
+      "colorTags": [
+        "黑"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/black_tourmaline.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#080808",
+        "#2B2B2B",
+        "#FFFFFF"
+      ],
+      "texture": "facet"
+    },
+    {
+      "id": "green_tourmaline",
+      "name": "綠碧璽",
+      "category": "bead",
+      "material": "碧璽",
+      "colorTags": [
+        "綠",
+        "清透"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://green_tourmaline",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#87B85F",
+        "#3D742A",
+        "#D3F4A9"
+      ],
+      "texture": "facet"
+    },
+    {
+      "id": "morganite",
+      "name": "摩根石",
+      "category": "bead",
+      "material": "綠柱石",
+      "colorTags": [
+        "粉",
+        "蜜粉"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://morganite",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#F0B8A6",
+        "#D58D7C",
+        "#FFE7DA"
+      ],
+      "texture": "mist"
+    },
+    {
+      "id": "larimar",
+      "name": "海紋石",
+      "category": "bead",
+      "material": "海紋石",
+      "colorTags": [
+        "藍",
+        "白紋"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://larimar",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#67C3D6",
+        "#2B92BD",
+        "#FFFFFF"
+      ],
+      "texture": "wave"
+    },
+    {
+      "id": "red_agate",
+      "name": "紅瑪瑙",
+      "category": "bead",
+      "material": "瑪瑙",
+      "colorTags": [
+        "紅",
+        "橘"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://red_agate",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#D84A2C",
+        "#84220F",
+        "#FF9A72"
+      ],
+      "texture": "band"
+    },
+    {
+      "id": "garnet",
+      "name": "石榴石",
+      "category": "bead",
+      "material": "石榴石",
+      "colorTags": [
+        "紅",
+        "深色"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/garnet.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#5F0D19",
+        "#26060C",
+        "#B23B4B"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "tiger_eye",
+      "name": "虎眼石",
+      "category": "bead",
+      "material": "虎眼石",
+      "colorTags": [
+        "棕",
+        "金線"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://tiger_eye",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#A0651F",
+        "#3D2412",
+        "#E4B04B"
+      ],
+      "texture": "flash"
+    },
+    {
+      "id": "aventurine",
+      "name": "東陵玉",
+      "category": "bead",
+      "material": "石英岩",
+      "colorTags": [
+        "綠",
+        "柔霧"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://aventurine",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#88B68F",
+        "#42774F",
+        "#CDE9CC"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "amazonite",
+      "name": "天河石",
+      "category": "bead",
+      "material": "天河石",
+      "colorTags": [
+        "藍綠"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/amazonite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#75D8D2",
+        "#2C9FA2",
+        "#E4FFFF"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "blue_agate",
+      "name": "藍紋瑪瑙",
+      "category": "bead",
+      "material": "瑪瑙",
+      "colorTags": [
+        "藍",
+        "紋理"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/blue_agate.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#B7C8EA",
+        "#5571AA",
+        "#F8FBFF"
+      ],
+      "texture": "wave"
+    },
+    {
+      "id": "fluorite",
+      "name": "螢石",
+      "category": "bead",
+      "material": "螢石",
+      "colorTags": [
+        "綠",
+        "紫",
+        "漸層"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://fluorite",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#73BC9C",
+        "#7A56B5",
+        "#D8E8E0"
+      ],
+      "texture": "gradient"
+    },
+    {
+      "id": "prehnite",
+      "name": "葡萄石",
+      "category": "bead",
+      "material": "葡萄石",
+      "colorTags": [
+        "綠",
+        "透光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/silver47_beads/prehnite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#D4ED9E",
+        "#94B75B",
+        "#F5FFD1"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "malachite",
+      "name": "孔雀石",
+      "category": "bead",
+      "material": "孔雀石",
+      "colorTags": [
+        "綠",
+        "環紋"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://malachite",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#05845B",
+        "#014735",
+        "#42C798"
+      ],
+      "texture": "band"
+    },
+    {
+      "id": "cherry_blossom_agate",
+      "name": "櫻花雨",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "粉",
+        "花紋"
+      ],
+      "availableSizesMm": [
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/cherry_blossom_agate.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F5B6BE",
+        "#CD7D86",
+        "#FFF1F3"
+      ],
+      "texture": "flower"
+    },
+    {
+      "id": "peridot",
+      "name": "橄欖石",
+      "category": "bead",
+      "material": "橄欖石",
+      "colorTags": [
+        "黃綠",
+        "清透"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://peridot",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#B8D94A",
+        "#799B20",
+        "#EAF7A7"
+      ],
+      "texture": "facet"
+    },
+    {
+      "id": "white_turquoise",
+      "name": "白松石",
+      "category": "bead",
+      "material": "松石",
+      "colorTags": [
+        "白",
+        "灰紋"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "procedural://white_turquoise",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F1F0EB",
+        "#8E8E89",
+        "#FFFFFF"
+      ],
+      "texture": "crack"
+    },
+    {
+      "id": "silver_spacer",
+      "name": "銀色隔片",
+      "category": "spacer",
+      "material": "合金",
+      "colorTags": [
+        "銀",
+        "金屬"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://silver_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#C8CCD2",
+        "#777E87",
+        "#FFFFFF"
+      ],
+      "texture": "metal"
+    },
+    {
+      "id": "gold_spacer",
+      "name": "金色隔片",
+      "category": "spacer",
+      "material": "合金",
+      "colorTags": [
+        "金",
+        "金屬"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://gold_spacer",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#E8BC57",
+        "#A56F1D",
+        "#FFF2A8"
+      ],
+      "texture": "metal"
+    },
+    {
+      "id": "pearl_spacer",
+      "name": "珍珠配飾",
+      "category": "spacer",
+      "material": "貝珠",
+      "colorTags": [
+        "白",
+        "柔光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "procedural://pearl_spacer",
+      "isPlaceholder": true,
+      "hexColors": [
+        "#F8F4EA",
+        "#D3CABA",
+        "#FFFFFF"
+      ],
+      "texture": "pearl"
+    },
+    {
+      "id": "silver_baguette_spacer",
+      "name": "銀鋯長隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/generated_spacers/silver_baguette_spacer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#D9DDE2",
+        "#7B828C",
+        "#FFFFFF"
+      ],
+      "texture": "rhinestone_bar"
+    },
+    {
+      "id": "gold_rhinestone_spacer",
+      "name": "金鋯隔片",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "金",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/generated_spacers/gold_rhinestone_spacer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F0C95B",
+        "#9E6A18",
+        "#FFF4B2"
+      ],
+      "texture": "rhinestone_bar"
+    },
+    {
+      "id": "silver_flower_spacer",
+      "name": "銀鋯花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/generated_spacers/silver_flower_spacer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#DCE1E8",
+        "#808894",
+        "#FFFFFF"
+      ],
+      "texture": "rhinestone_flower"
+    },
+    {
+      "id": "gold_flower_spacer",
+      "name": "金鋯花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "金",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/generated_spacers/gold_flower_spacer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F1C85B",
+        "#A97318",
+        "#FFF7B8"
+      ],
+      "texture": "rhinestone_flower"
+    },
+    {
+      "id": "silver_snowflake_spacer",
+      "name": "銀雪花隔",
+      "category": "spacer",
+      "material": "鋯石合金",
+      "colorTags": [
+        "銀",
+        "白",
+        "透明"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10
+      ],
+      "imageAsset": "assets/generated_spacers/silver_snowflake_spacer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#E7EBF0",
+        "#8B929A",
+        "#FFFFFF"
+      ],
+      "texture": "snowflake_spacer"
+    },
+    {
+      "id": "south_red_agate",
+      "name": "南紅冰飄花",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "紅",
+        "白"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/south_red_agate.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#D84A2C",
+        "#FFF2EA",
+        "#FF9A72"
+      ],
+      "texture": "flower"
+    },
+    {
+      "id": "black_gold_super",
+      "name": "黑金超",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "黑",
+        "金"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/black_gold_super.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#17130D",
+        "#B88A31",
+        "#F6DB8B"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "black_strawberry_quartz",
+      "name": "黑草莓晶",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "黑",
+        "粉"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/black_strawberry_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#4E1C2B",
+        "#1B1116",
+        "#D7A0AC"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "white_rutilated",
+      "name": "白髮晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "白",
+        "髮絲"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/white_rutilated.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F5F6F0",
+        "#C9CED1",
+        "#FFFFFF"
+      ],
+      "texture": "needle"
+    },
+    {
+      "id": "sunstone",
+      "name": "日光石",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "橘",
+        "金"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/sunstone.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#EE9A45",
+        "#A64B22",
+        "#FFE0A6"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "apatite",
+      "name": "磷灰石",
+      "category": "bead",
+      "material": "磷灰石",
+      "colorTags": [
+        "藍綠"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/apatite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#57BFD4",
+        "#186A8B",
+        "#DFFBFF"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "charoite",
+      "name": "紫龍晶",
+      "category": "bead",
+      "material": "紫龍晶",
+      "colorTags": [
+        "紫",
+        "白紋"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/charoite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#8D61AE",
+        "#3E2857",
+        "#D6C1EA"
+      ],
+      "texture": "wave"
+    },
+    {
+      "id": "green_strawberry_quartz",
+      "name": "綠草莓晶",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "綠",
+        "內含物"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/green_strawberry_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#7FC991",
+        "#2E6A46",
+        "#DDF6E1"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "silver_obsidian",
+      "name": "銀曜石",
+      "category": "bead",
+      "material": "曜石",
+      "colorTags": [
+        "黑",
+        "銀光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/silver_obsidian.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#111111",
+        "#565B64",
+        "#DADCE2"
+      ],
+      "texture": "flash"
+    },
+    {
+      "id": "hawk_eye",
+      "name": "鷹眼石",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "藍灰",
+        "絲光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/hawk_eye.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#273849",
+        "#0F1823",
+        "#7A96A8"
+      ],
+      "texture": "flash"
+    },
+    {
+      "id": "golden_healer",
+      "name": "金運石",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "黑",
+        "金"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/golden_healer.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#1C1B18",
+        "#C69B43",
+        "#F3D076"
+      ],
+      "texture": "speckle"
+    },
+    {
+      "id": "blue_moonstone",
+      "name": "藍月光",
+      "category": "bead",
+      "material": "月光石",
+      "colorTags": [
+        "藍",
+        "白光"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/blue_moonstone.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#C9E5FF",
+        "#73A4E8",
+        "#FFFFFF"
+      ],
+      "texture": "glow"
+    },
+    {
+      "id": "garden_quartz",
+      "name": "膠花水晶",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "透明",
+        "花紋"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/garden_quartz.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#F7D0BC",
+        "#BA7F5C",
+        "#FFF4EB"
+      ],
+      "texture": "flower"
+    },
+    {
+      "id": "iolite",
+      "name": "堇青石",
+      "category": "bead",
+      "material": "堇青石",
+      "colorTags": [
+        "藍紫"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/iolite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#5366A9",
+        "#252C65",
+        "#BBC8FF"
+      ],
+      "texture": "clear"
+    },
+    {
+      "id": "black_gold_backbone",
+      "name": "黑金骨干",
+      "category": "bead",
+      "material": "天然石",
+      "colorTags": [
+        "黑",
+        "金"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/black_gold_backbone.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#17120D",
+        "#A77B2D",
+        "#EED18A"
+      ],
+      "texture": "band"
+    },
+    {
+      "id": "kyanite",
+      "name": "藍晶石",
+      "category": "bead",
+      "material": "藍晶石",
+      "colorTags": [
+        "藍"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/kyanite.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#4A88C8",
+        "#174576",
+        "#BDE2FF"
+      ],
+      "texture": "facet"
+    },
+    {
+      "id": "blue_needle",
+      "name": "藍針",
+      "category": "bead",
+      "material": "水晶",
+      "colorTags": [
+        "藍",
+        "內含物"
+      ],
+      "availableSizesMm": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "imageAsset": "assets/silver47_beads/blue_needle.png",
+      "isPlaceholder": false,
+      "hexColors": [
+        "#A8D5EA",
+        "#3C7CA5",
+        "#F7FFFF"
+      ],
+      "texture": "needle"
+    }
+  ],
+  "presets": [
+    {
+      "id": "soft_crystal",
+      "name": "柔光水晶",
+      "description": "白水晶、粉水晶、海藍寶與月光石的清透排列。",
+      "sizeMm": 8,
+      "itemIds": [
+        "clear_quartz",
+        "rose_quartz",
+        "clear_quartz",
+        "aquamarine",
+        "clear_quartz",
+        "moonstone",
+        "rose_quartz",
+        "clear_quartz",
+        "aquamarine",
+        "clear_quartz",
+        "rose_quartz",
+        "clear_quartz"
+      ]
+    },
+    {
+      "id": "deep_protection",
+      "name": "黑金守護",
+      "description": "黑曜石、黑碧璽與金色隔片的深色護身感。",
+      "sizeMm": 10,
+      "itemIds": [
+        "obsidian",
+        "gold_spacer",
+        "black_tourmaline",
+        "tiger_eye",
+        "obsidian",
+        "gold_spacer",
+        "black_tourmaline",
+        "tiger_eye",
+        "obsidian",
+        "gold_spacer"
+      ]
+    },
+    {
+      "id": "green_forest",
+      "name": "森林綠調",
+      "description": "東陵玉、孔雀石、葡萄石與綠幽靈的層次綠色。",
+      "sizeMm": 8,
+      "itemIds": [
+        "aventurine",
+        "prehnite",
+        "green_phantom",
+        "malachite",
+        "silver_spacer",
+        "aventurine",
+        "prehnite",
+        "green_phantom",
+        "malachite",
+        "silver_spacer"
+      ]
+    },
+    {
+      "id": "purple_mist",
+      "name": "紫霧漸層",
+      "description": "紫水晶、螢石、藍紋瑪瑙與珍珠配飾的冷調排列。",
+      "sizeMm": 8,
+      "itemIds": [
+        "amethyst",
+        "fluorite",
+        "blue_agate",
+        "pearl_spacer",
+        "amethyst",
+        "fluorite",
+        "blue_agate",
+        "pearl_spacer",
+        "amethyst",
+        "fluorite"
+      ]
+    }
+  ]
+}
